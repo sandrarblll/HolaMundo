@@ -15,13 +15,13 @@ public class Entornos_desarrollo {
 		String nombre;
 				
 		//Declaramos los arrays y les damos valor
-		String[]alumnos={"Ana", "Maria", "Paco", "Jose", "Juan"};
-		double[]notas={2, 5, 7, 8, 3};
+		String[]alumnos={"Ana", "Maria", "Paco", "Jose", "Juan", "Raul"};
+		double[]notas={2, 5, 7, 8, 3, 10};
 		boolean existe=false;
 				
 		//Hacemos un menu mostrando los nombres de los alumnos
 				
-		System.out.println("Los alumnos que están en nuestro centro son: \nAna. \nMaria. \nPaco. \nJose. \nJuan.");
+		System.out.println("Los alumnos que están en nuestro centro son: \nAna. \nMaria. \nPaco. \nJose. \nJuan. \nRaul.");
 				
 		System.out.println("Indique el nombre del alumno del que quiera saber la nota: ");
 		nombre=leer.nextLine();
